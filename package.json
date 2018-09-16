@@ -1,0 +1,26 @@
+{
+  "name": "browser-cli",
+  "version": "0.0.1",
+  "description": "a cli tool for front-end-js test",
+  "main": "index.js",
+  "bin": {
+    "browser": "./command/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Will233/browser-cli.git"
+  },
+  "author": "Will233",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Will233/browser-cli/issues"
+  },
+  "homepage": "https://github.com/Will233/browser-cli#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "puppeteer": "^1.8.0"
+  }
+}
